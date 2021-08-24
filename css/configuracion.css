@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 10px;
+}
+
+/* variables de color */
+:root {
+    ---gris      : #2D2B2B;
+    ---azul      : #2C3D63;
+    ---crema    : #F7F8F3;
+    ---naranja   : #FF6F5E;
+    ---gris    : #A4A0A0;
+;
+
+/* variables de tamaño de letra */
+    ---h1      : 4rem;
+    ---h2      : 2.4rem;
+    ---h3      : 2rem;
+    ---parrafo : 1.8rem;
+    ---parrafo : 1.6rem;
+}
+
+/* Estructura de las secciones */
+.background-section {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-body {
+    max-width: 130rem;
+    height: auto;
+    margin: auto;
+}
